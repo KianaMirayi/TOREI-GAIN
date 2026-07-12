@@ -55,3 +55,4 @@ Desktop.ini
 # ====== 日志和临时文件 ======
 *.log
 widget_coords.txt
+*.zip
