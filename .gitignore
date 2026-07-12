@@ -1,0 +1,57 @@
+# ====== 构建输出 ======
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.vst3
+*.aax
+*.au
+*.lv2
+
+# ====== CMake 生成文件 ======
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakePresets.json
+
+# ====== Visual Studio 生成文件 ======
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.slnx
+x64/
+Debug/
+Release/
+*.dir/
+
+# ====== IDE 和编辑器 ======
+.vscode/
+*.swp
+*.swo
+*~
+.idea/
+*.code-workspace
+
+# ====== 操作系统 ======
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# ====== JUCE 源码（外部引用，不在此仓库内） ======
+# 如果 JUCE 作为子模块存在，取消下面两行注释：
+# JUCE/
+# E:/Programing/C++Hell/JUCE/
+
+# ====== 不属于此项目的文件 ======
+../juce-test-2/
+../envTest/
+
+# ====== 日志和临时文件 ======
+*.log
+widget_coords.txt

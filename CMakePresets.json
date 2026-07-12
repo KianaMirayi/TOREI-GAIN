@@ -1,0 +1,23 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "msvc2026-debug",
+            "displayName": "MSVC 2026 Debug",
+            "description": "使用 Visual Studio 2026 (MSVC 19.51) 编译 JUCE 8.0",
+            "generator": "Visual Studio 18 2026",
+            "architecture": "x64",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "msvc2026-debug-build",
+            "configurePreset": "msvc2026-debug",
+            "configuration": "Debug"
+        }
+    ]
+}
